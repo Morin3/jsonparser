@@ -1,4 +1,4 @@
-FROM golang:1.24rc1
+FROM golang:1.24-rc-alpine3.21
 
 RUN go get github.com/Jeffail/gabs
 RUN go get github.com/bitly/go-simplejson
